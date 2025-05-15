@@ -198,9 +198,7 @@ footer{
     #conteudo {
         grid-template-columns: 1fr;
     }
-    /* aside {
-        border-radius: 20px;
-    } */
+    
     aside {
         width: 100%;
         margin-top: 30px;

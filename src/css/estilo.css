@@ -353,42 +353,99 @@ a{
 /*Contato*/
 
 .contato {
-  background: #fffae9;
-  color: black;
-  padding: 30px;
-  border-radius: 15px;
+  background: #fffae9; 
+  padding: 30px 20px;
   font-family: Arial, sans-serif;
-  max-width: 900px;
-  margin: 0 auto;
+  width: 100%;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 .contato-container {
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start; 
-  gap: 200px;
+  justify-content: flex-start; 
+  align-items: flex-start;
+  gap: 40px; 
+  max-width: 900px; 
+  margin: 0 auto; 
 }
 
 .info-contato {
+  flex: 1; 
   display: flex;
   flex-direction: column;
-  gap: 10px;
-  flex: 1;
+  gap: 12px;
 }
 
-.info-contato button {
-  margin-top: 15px;
-  padding: 10px 20px;
+.imagem-lateral img {
+  width: 500px; 
+  border-radius: 12px;
+  object-fit: cover; 
+}
+
+/*Contato - Formulario*/
+
+.formulario-contato {
+  background: #fffae9; 
+  padding: 30px;
+  max-width: 600px;
+  margin: 40px auto;
+  border-radius: 15px;
+  font-family: Arial, sans-serif;
+  color: black;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  box-sizing: border-box;
+}
+
+.formulario-secao {
+  background-color: #b72c2c;
+  padding: 40px 20px; 
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.formulario-contato h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.formulario-contato form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.formulario-contato label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.formulario-contato input,
+.formulario-contato textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 16px;
+  width: 100%;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+.formulario-contato button {
+  align-self: flex-end;
+  margin-top: 10px;
+  padding: 10px 25px;
   background-color: #f4a825;
   color: black;
   border: none;
   border-radius: 10px;
   font-weight: bold;
   cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
-.imagem-lateral img {
-  width: 550px;
-  border-radius: 12px;
+.formulario-contato button:hover {
+  background-color: #d89100;
 }
 

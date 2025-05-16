@@ -31,7 +31,6 @@
       <p>Email: contato@email.com</p>
       <p>Rua Exemplo, 123 - São Paulo, SP</p>
       <p>Seg-Sáb: 11h30 às 23h<br>Dom: 11h30 às 22h</p>
-      <button>FAZER RESERVA</button>
     </div>
     <div class="imagem-lateral">
       <img src="../src/assets/img/mapa.jpg" alt="Endereço do local" />
@@ -39,6 +38,21 @@
   </div>
 </section>
 
+<section class="formulario-secao">
+    <h2>Faça a sua reserva</h2>
+    <form action="#" method="post" class="formulario-contato">
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" required />
+
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="mensagem">Mensagem:</label>
+      <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
 
 </body>
 </html>

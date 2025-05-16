@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
 *{
     margin:0;
     padding:0;
@@ -11,6 +14,7 @@
 
 body{
     background: #fffae9;
+    font-family: "Cal Sans", sans-serif;
 }
 
 #container{
@@ -20,8 +24,8 @@ body{
 }
 
 header{
-    background-color: #6a1838;
-    color: #fff;
+    background-color: #b72c2c;
+    color: #f5f1e3;
     padding: 1rem 2rem;
     display: flex;
     justify-content: space-between;
@@ -40,13 +44,13 @@ header nav ul{
     display: flex;
 }
 header nav ul li a{
-    color:#fff;
+    color:#f5;
     text-transform: uppercase;
     padding: 5px 10px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: "Cal Sans", sans-serif;
 }
 header nav ul li a:hover{
-    text-decoration: underline 5px #dfc7a3;
+    text-decoration: underline 5px #f5cf85;
 }
 
 #conteudo{
@@ -61,7 +65,7 @@ main{
     flex-wrap: wrap;
     justify-content: center;
     font-size: 25px;
-    color: #25000b;
+    color: #1c1c1c;
     margin-top: 4rem;
     margin-left: -4rem;
     
@@ -72,14 +76,14 @@ main{
     width: 230px;
     margin: 5rem;
     margin-top: 10rem;
-    background-color: #e7d6bc;
-    border: 0px solid #e7d6bc;
+    background-color: #f5f1e3;
+    border: 0px solid #f5f1e3;
     border-radius: 8px;
     text-align: center;
     cursor: pointer;
-    font-family: Georgia, 'Times New Roman', Times, serif; 
+    font-family: "Cal Sans", sans-serif;
     font-size: 17px;
-    color: #380011;
+    color: #1c1c1c;
 }
 .produto h3.produto p {
     margin: 10px;
@@ -101,7 +105,7 @@ main{
     margin-top: 30px;
     color:rgb(255, 255, 255);
     font-size: 1.7rem;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: "Cal Sans", sans-serif;
 }
 
 button{
@@ -112,28 +116,80 @@ button{
     padding: 15px 45px;
     border-radius: 5px;
     cursor: pointer;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: #25000b;
+    font-family: "Cal Sans", sans-serif;
+    color: #5a3e36;
 }
 
 button:hover{
-    background: #41151c;
+    background: #f5cf85;
     color:rgb(255, 255, 255);
 } 
+/* SOBRE */
+#conteudo1 {
+    background-image: url('../assets/img/sushisobre.jpg'); 
+    width: 100vw;
+    display: block;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 60vh;                 
+    display: flex;                      
+    align-items: center;               
+    justify-content: center;          
+    padding: 30px;
+    margin: 0;
+}
+
+.sobrenos {
+    background-color: #1c1c1c;
+    font-size: 25px;
+    color: #f5f1e3;
+    padding: 30px;
+    border-radius: 7px;
+    max-width: 800px;
+    width: 100vw;
+    text-align: center;
+}
+
+.sobrenos h1{
+    font-family: "Comfortaa", sans-serif;
+    font-size: 52px;
+    color: #b72c2c;
+
+}
+
+.outros{
+    background-color: #1c1c1c;
+    font-size: 25px;
+    color: #f5f1e3;
+    padding: 30px;
+    border-radius: 7px;
+    max-width: 800px;
+    width: 100vw;
+    text-align: center;
+}
+
+.outros h2{
+    font-family: "Comfortaa", sans-serif;
+    font-size: 52px;
+    color: #b72c2c;
+}
+
+  
 
 aside{
     width: 300px;
     padding: 30px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: "Cal Sans", sans-serif;
     line-height: 25px;
-    color:#25000b;
-    background: #6a1838;
+    color:#1c1c1c;
+    background: #b72c2c;
 }
 
 footer{
-    background: #6a1838;
+    background: #b72c2c;
     color:#fff;
-    padding: 20px 0;
+    padding: 20px 30px;
     margin-top: auto;
 }
 
@@ -142,12 +198,12 @@ footer{
     justify-content: space-around;
     max-width: 100%;
     margin: 0 auto;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: "Cal Sans", sans-serif;
 }
 
 .footer-content h3{
     margin-bottom: 30px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: "Cal Sans", sans-serif;
 }
 
 .footer-content ul{
@@ -162,7 +218,7 @@ footer{
 .footer-content a{
     color:#ffffff;
     text-decoration: none;
-    font-family: Georgia, 'Times New Roman', Times, serif
+    font-family: "Cal Sans", sans-serif;
 }
 
 /* Responsividade */

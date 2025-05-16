@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
 
+*{
     margin:0;
     padding:0;
     box-sizing: border-box;
@@ -77,16 +78,26 @@ main{
     margin: 5rem;
     margin-top: 10rem;
     background-color: #B72C2C;
-    border: 0px solid #B72C2C;
+    border: 0px solid;
     border-radius: 8px;
     text-align: center;
     cursor: pointer;
     font-family: "Cal Sans", sans-serif;
     font-size: 17px;
-    color: #1c1c1c;
+    color: #ffffff;
 }
-.produto h3.produto p {
+
+.produto h3,
+.produto p {
     margin: 10px;
+}
+
+.preco{
+    font-weight: 700;
+    margin-top: 30px;
+    color:rgb(255, 255, 255);
+    font-size: 1.7rem;
+    font-family: "Cal Sans", sans-serif;
 }
 
 .produto img{
@@ -100,16 +111,8 @@ main{
     
 }
 
-.preco{
-    font-weight: 700;
-    margin-top: 30px;
-    color:rgb(255, 255, 255);
-    font-size: 1.7rem;
-    font-family: "Cal Sans", sans-serif;
-}
-
 button{
-    background: #eec0c0;
+    background: #f4a825 ;
     border: none;
     margin-top: 25px;
     margin-bottom: 18px;
@@ -117,14 +120,16 @@ button{
     border-radius: 5px;
     cursor: pointer;
     font-family: "Cal Sans", sans-serif;
-    color: #5A3E36;
+    color: #fcfbfb;
 }
 
 button:hover{
     background: #f5cf85;
     color:rgb(255, 255, 255);
 } 
+
 /* SOBRE */
+
 #conteudo1 {
     background-image: url('../assets/img/sushisobre.jpg'); 
     width: 100vw;
@@ -233,6 +238,105 @@ footer{
     color:#ffffff;
     text-decoration: none;
     font-family: "Cal Sans", sans-serif;
+}
+
+/*Contato*/
+
+.contato {
+  background: #fffae9; 
+  padding: 30px 20px;
+  font-family: Arial, sans-serif;
+  width: 100%;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.contato-container {
+  display: flex;
+  justify-content: flex-start; 
+  align-items: flex-start;
+  gap: 40px; 
+  max-width: 900px; 
+  margin: 0 auto; 
+}
+
+.info-contato {
+  flex: 1; 
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.imagem-lateral img {
+  width: 500px; 
+  border-radius: 12px;
+  object-fit: cover; 
+}
+
+/*Contato - Formulario*/
+
+.formulario-contato {
+  background: #fffae9; 
+  padding: 30px;
+  max-width: 600px;
+  margin: 40px auto;
+  border-radius: 15px;
+  font-family: Arial, sans-serif;
+  color: black;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  box-sizing: border-box;
+}
+
+.formulario-secao {
+  background-color: #b72c2c;
+  padding: 40px 20px; 
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.formulario-contato h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.formulario-contato form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.formulario-contato label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.formulario-contato input,
+.formulario-contato textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 16px;
+  width: 100%;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+.formulario-contato button {
+  align-self: flex-end;
+  margin-top: 10px;
+  padding: 10px 25px;
+  background-color: #f4a825;
+  color: black;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.formulario-contato button:hover {
+  background-color: #d89100;
 }
 
 /* Responsividade */
@@ -348,103 +452,3 @@ a{
     list-style: none;
     text-decoration: none;
 }
-
-/*Contato*/
-
-.contato {
-  background: #fffae9; 
-  padding: 30px 20px;
-  font-family: Arial, sans-serif;
-  width: 100%;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-.contato-container {
-  display: flex;
-  justify-content: flex-start; 
-  align-items: flex-start;
-  gap: 40px; 
-  max-width: 900px; 
-  margin: 0 auto; 
-}
-
-.info-contato {
-  flex: 1; 
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-}
-
-.imagem-lateral img {
-  width: 500px; 
-  border-radius: 12px;
-  object-fit: cover; 
-}
-
-/*Contato - Formulario*/
-
-.formulario-contato {
-  background: #fffae9; 
-  padding: 30px;
-  max-width: 600px;
-  margin: 40px auto;
-  border-radius: 15px;
-  font-family: Arial, sans-serif;
-  color: black;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-  box-sizing: border-box;
-}
-
-.formulario-secao {
-  background-color: #b72c2c;
-  padding: 40px 20px; 
-  width: 100%;
-  box-sizing: border-box;
-}
-
-.formulario-contato h2 {
-  margin-bottom: 20px;
-  font-size: 24px;
-  text-align: center;
-}
-
-.formulario-contato form {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-
-.formulario-contato label {
-  font-weight: bold;
-  margin-bottom: 5px;
-}
-
-.formulario-contato input,
-.formulario-contato textarea {
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 10px;
-  font-size: 16px;
-  width: 100%;
-  box-sizing: border-box;
-  resize: vertical;
-}
-
-.formulario-contato button {
-  align-self: flex-end;
-  margin-top: 10px;
-  padding: 10px 25px;
-  background-color: #f4a825;
-  color: black;
-  border: none;
-  border-radius: 10px;
-  font-weight: bold;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.formulario-contato button:hover {
-  background-color: #d89100;
-}
-

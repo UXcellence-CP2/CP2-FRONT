@@ -198,6 +198,7 @@ aside{
     line-height: 25px;
     color:#1c1c1c;
     background: #b72c2c;
+    border-radius: 15px;
 }
 
 footer{
@@ -348,3 +349,46 @@ a{
     list-style: none;
     text-decoration: none;
 }
+
+/*Contato*/
+
+.contato {
+  background: #fffae9;
+  color: black;
+  padding: 30px;
+  border-radius: 15px;
+  font-family: Arial, sans-serif;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.contato-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; 
+  gap: 200px;
+}
+
+.info-contato {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex: 1;
+}
+
+.info-contato button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #f4a825;
+  color: black;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.imagem-lateral img {
+  width: 550px;
+  border-radius: 12px;
+}
+

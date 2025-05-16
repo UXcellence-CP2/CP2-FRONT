@@ -44,7 +44,7 @@ header nav ul{
     display: flex;
 }
 header nav ul li a{
-    color:#f5;
+    color: #f5f1e3;
     text-transform: uppercase;
     padding: 5px 10px;
     font-family: "Cal Sans", sans-serif;
@@ -132,16 +132,18 @@ button:hover{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    min-height: 60vh;                 
-    display: flex;                      
+    min-height: 100vh;                 
+    display: flex;           
+    flex-direction: column;           
     align-items: center;               
     justify-content: center;          
     padding: 30px;
+    box-sizing: border-box;
     margin: 0;
 }
 
 .sobrenos {
-    background-color: #1c1c1c;
+    background-color: #1c1c1ce1;
     font-size: 25px;
     color: #f5f1e3;
     padding: 30px;
@@ -149,17 +151,18 @@ button:hover{
     max-width: 800px;
     width: 100vw;
     text-align: center;
+    margin-bottom: 30px;
 }
 
 .sobrenos h1{
     font-family: "Comfortaa", sans-serif;
-    font-size: 52px;
+    font-size: 75px;
     color: #b72c2c;
 
 }
 
 .outros{
-    background-color: #1c1c1c;
+    background-color: #1c1c1ce1;
     font-size: 25px;
     color: #f5f1e3;
     padding: 30px;
@@ -167,6 +170,7 @@ button:hover{
     max-width: 800px;
     width: 100vw;
     text-align: center;
+    margin-bottom: 30px;
 }
 
 .outros h2{

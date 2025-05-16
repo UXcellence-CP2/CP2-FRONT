@@ -24,6 +24,7 @@ body{
 }
 
 header{
+    position: relative;
     background-color: #b72c2c;
     color: #f5f1e3;
     padding: 1rem 2rem;
@@ -144,38 +145,47 @@ button:hover{
 
 .sobrenos {
     background-color: #1c1c1ce1;
-    font-size: 25px;
+    font-size: 26px;
     color: #f5f1e3;
     padding: 30px;
-    border-radius: 7px;
+    border-radius: 8px 8px 0 0;
     max-width: 800px;
     width: 100vw;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 0;
+    padding-bottom: 2%;
 }
 
 .sobrenos h1{
     font-family: "Comfortaa", sans-serif;
-    font-size: 75px;
+    font-size: 70px;
     color: #b72c2c;
 
+}
+.logo-img{
+    display: block;
+    margin: 20px auto;
+    width: 600px;
+    opacity: 0.8;
+    margin-top: 13%;
 }
 
 .outros{
     background-color: #1c1c1ce1;
-    font-size: 25px;
+    font-size: 20px;
     color: #f5f1e3;
     padding: 30px;
-    border-radius: 7px;
+    border-radius: 0 0 8px 8px;
     max-width: 800px;
     width: 100vw;
     text-align: center;
+    margin-top: 0;
     margin-bottom: 30px;
 }
 
 .outros h2{
     font-family: "Comfortaa", sans-serif;
-    font-size: 52px;
+    font-size: 50px;
     color: #b72c2c;
 }
 

@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
 
-*{
     margin:0;
     padding:0;
     box-sizing: border-box;
@@ -77,8 +76,8 @@ main{
     width: 230px;
     margin: 5rem;
     margin-top: 10rem;
-    background-color: #f5f1e3;
-    border: 0px solid #f5f1e3;
+    background-color: #B72C2C;
+    border: 0px solid #B72C2C;
     border-radius: 8px;
     text-align: center;
     cursor: pointer;
@@ -110,7 +109,7 @@ main{
 }
 
 button{
-    background: #eee5d9;
+    background: #eec0c0;
     border: none;
     margin-top: 25px;
     margin-bottom: 18px;
@@ -118,7 +117,7 @@ button{
     border-radius: 5px;
     cursor: pointer;
     font-family: "Cal Sans", sans-serif;
-    color: #5a3e36;
+    color: #5A3E36;
 }
 
 button:hover{

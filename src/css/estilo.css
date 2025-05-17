@@ -183,49 +183,24 @@ button:hover{
     margin: 0;
 }
 
-.sobrenos {
-    background-color: #1c1c1ce1;
-    font-size: 26px;
-    color: #f5f1e3;
-    padding: 30px;
-    border-radius: 8px 8px 0 0;
-    max-width: 800px;
-    width: 100vw;
-    text-align: center;
-    margin-bottom: 0;
-    padding-bottom: 2%;
-}
-
-.sobrenos h1{
-    font-family: "Comfortaa", sans-serif;
-    font-size: 70px;
-    color: #b72c2c;
-
-}
-.logo-img{
-    display: block;
-    margin: 20px auto;
-    width: 600px;
-    opacity: 0.8;
-    margin-top: 13%;
-}
 
 .outros{
     background-color: #1c1c1ce1;
-    font-size: 18px;
+    font-size: 20px;
     color: #f5f1e3;
     padding: 30px;
     border-radius: 0 0 8px 8px;
     max-width: 800px;
     width: 100vw;
     text-align: center;
-    margin-top: 0;
     margin-bottom: 30px;
+    margin: 0;
 }
 
 .outros h2{
+   
     font-family: "Comfortaa", sans-serif;
-    font-size: 45px;
+    font-size: 30px;
     color: #b72c2c;
 }
 

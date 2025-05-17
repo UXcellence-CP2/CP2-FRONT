@@ -262,7 +262,7 @@ body {
   
   /* === CONTATO === */
   .contato {
-    background: #890101;
+    background: #faf9da;
     padding: 60px 20px;
   }
   
@@ -309,19 +309,19 @@ body {
 /*Contato - Formulario*/
 
 .formulario-contato {
-  background: #af2f2f; 
+  background:white; 
   padding: 30px;
   max-width: 500px;
   margin: 40px auto;
   border-radius: 15px;
   font-family: Arial, sans-serif;
-  color: white;
+  color: #333;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
   box-sizing: border-box;
 }
 
 .formulario-secao {
-  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../assets/img/fundo-formulario.jpg');
+background-color: #B72C2C;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -352,7 +352,7 @@ body {
 .formulario-contato input,
 .formulario-contato textarea {
   padding: 12px;
-  border: 1px solid #ccc;
+  border: 1px solid #a3a3a3;
   border-radius: 10px;
   font-size: 16px;
   width: 100%;
@@ -365,7 +365,7 @@ body {
   margin-top: 10px;
   padding: 10px 25px;
   background-color: #f4a825;
-  color: rgb(255, 255, 255);
+  color: #333;
   border: none;
   border-radius: 10px;
   font-weight: bold;

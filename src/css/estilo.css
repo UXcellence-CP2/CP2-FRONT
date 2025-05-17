@@ -209,11 +209,16 @@ button:hover{
     margin: 0;
 }
 
-.outros h2{
-   
+.outros h2 {
     font-family: "Comfortaa", sans-serif;
     font-size: 30px;
     color: #b72c2c;
+    margin-top: 40px; /* Espaço acima de cada h2 */
+    margin-bottom: 10px; /* Espaço entre o h2 e o parágrafo seguinte */
+}
+
+.outros p {
+    margin-bottom: 20px; /* Espaço após cada parágrafo */
 }
 
 aside{
